@@ -52,3 +52,25 @@ li {
   color: #8A307F;
 }
 
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #6883BC;
+  }
+  
+  .square {
+    font-size: 50px;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .status {
+    font-size: 20px;
+  }
+  
+  .game-info button {
+    font-size: 14px;
+  }
+}
+
