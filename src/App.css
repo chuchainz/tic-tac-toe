@@ -1,0 +1,54 @@
+/* body {
+  background: url('C:\Users\Jimmy\Desktop\cs2250 final hw\MY-APP\public\fire.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+body {
+  background: #6883BC;
+  text-align: center;
+  justify-content: center;
+}
+
+.square {
+  background: #79A7D3;
+  color: #8A307F;
+  border: 1px solid black;
+  float: left;
+  font-size: 100px;
+  line-height: 100px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  width: 100px;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.status {
+  font-size: 25px;
+  color: #8A307F;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.game-info button {
+  background: #79A7D3;
+  color: #8A307F;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+li {
+  font-weight: bold;
+  color: #8A307F;
+}
+
